@@ -33,6 +33,8 @@ class Student
       Values (?, ?)
       SQL
       DB[:conn].execute(sql)
+      
+      @id =
   end 
   
   def self.create 
