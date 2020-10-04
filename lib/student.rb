@@ -34,7 +34,7 @@ class Student
       SQL
       DB[:conn].execute(sql)
       
-      @id =
+      @id = DB[:conn].execute()
   end 
   
   def self.create 
