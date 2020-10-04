@@ -15,7 +15,8 @@ class Student
     id INTEGER PRIMARY KEY,
     name TEXT,
     grade INTEGER
-    );
+    )
+    
   end
 
   def self.drop_table
