@@ -29,7 +29,9 @@ class Student
   
   def save
     sql = <<-SQL
-      INSERT INTO students Values ()
+      INSERT INTO students (name, age) Values (?, ?)
+      SQL
+      
   end 
   
   def self.create 
