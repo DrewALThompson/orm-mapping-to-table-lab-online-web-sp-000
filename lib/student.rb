@@ -11,6 +11,7 @@ class Student
   
   def self.create_table
     sql = <<-SQL
+    
   end
 
   def self.drop_table
