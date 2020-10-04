@@ -10,7 +10,8 @@ class Student
   end
   
   def self.create_table
-    sql <<
+    sql <<-SQL
+    
   end
 
   def self.drop_table
