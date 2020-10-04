@@ -16,7 +16,8 @@ class Student
         name TEXT,
         grade INTEGER
         )
-        
+        SQL
+      DB
   end
 
   def self.drop_table
